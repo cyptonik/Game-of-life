@@ -9,4 +9,4 @@ game: $(SRC)
 	$(CC) $(FLAGS) $^ -o $(BUILD)game
 
 clean: 
-	rm -f game
+	rm -f $(BUILD)game
